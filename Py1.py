@@ -30,6 +30,7 @@ class Passenger:
             self.txtPMobile.delete(0,END)
             self.txtBno.delete(0,END)
             self.txtRname.delete(0,END)
+            self.txtRname.delete(0,END)
 
         def addData():
             if(len(Pno.get())!=0):
